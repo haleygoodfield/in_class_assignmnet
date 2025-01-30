@@ -21,10 +21,15 @@ for (let i = 10; i >= 1; i--) {
 
 // Task 4
 let num = 2;
-while (count <= 10) {
+while (num <= 10) {
     console.log(num);
-    count += 2;
+    num += 2;
 }
 
+// Task 5
+function calculateSquare(num) {
+    return num * num;
+}
+console.log(calculateSquare(4));
 
 
